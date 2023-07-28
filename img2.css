@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    font-family: Roboto;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.img1 {
+    margin-top: 50px;
+    width: 40%;
+    
+}
+
+.text_a {
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.text_a h1 {
+    margin-bottom: 20px;
+}
+
+.text_a p {
+    font-size: 20px;
+    color:dimgray;
+    font-weight: bold;
+}
+
+.ref {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ref a {
+    margin-right: 11px;
+}
+
+.important {
+    background-color: lightgray;
+    margin-bottom: 40px;
+    border: 2px solid lighgray;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.important ol {
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: red;
+    padding-left: 25px;
+    font-size: 25px;
+
+}
+
+.important h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+.table tr {
+    text-align: center;
+}
+
+.table thead tr:nth-child(1) {
+    font-weight:100;
+    color: darkgoldenrod;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.table tbody td:hover {
+    color:blue
+}
+
+
+.cont {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 40px;
+    
+}
+
+.cont_s {
+    border: 3px solid darkgrey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dta label, input{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dta input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.fio-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.msg label, textarea{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+.msg textarea {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 11px;
+}
+
+.btn:active {
+    box-shadow: 2px 2px 0px 0px darkgrey;
+}
